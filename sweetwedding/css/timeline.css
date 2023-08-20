@@ -2238,6 +2238,7 @@
 .timeLine .row .lineHeader:after {
 	content: '';
 	width: 3px;
+        background-color: #000000bf !important;
 	position: absolute;
 	top: 35px;
 	bottom: 35px;
@@ -2296,9 +2297,10 @@
 	width: 50px;
 	padding: 5px 0px;
 	font-weight: bold;
+        background-color: #000000bf !important;
 	line-height: 15px;
 	position: absolute;
-	z-index: 19;
+	z-index: 18;
 	top: -10px;
 	left: 20px;
 	background-color: rgba(134, 134, 134, 0.247);
@@ -2359,6 +2361,7 @@
 	background-color: rgba(255,255,255,.5);
 	padding: 0px 20px;
 	position: absolute;
+        background-color: #000000bf !important;
 	z-index: 9;
 	left: -10px;
 	bottom: 10px;
