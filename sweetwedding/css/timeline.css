@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  }
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
@@ -2265,7 +2266,7 @@
 	content: '';
 	width: 15px;
 	height: 15px;
-	border: 3px solid darkred;
+	border: 3px solid #8888883d;
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
@@ -2277,7 +2278,7 @@
 	height: 1px;
 	width: 5%;
 	position: absolute;
-	background-color: #890025;
+	background-color: #8888883d;
 	top: 16px;
 	right: 8px; 
 }
@@ -2300,7 +2301,7 @@
 	z-index: 999;
 	top: -10px;
 	left: 20px;
-	background-color: rgba(139, 0, 0, 0.8);
+	background-color: rgba(134, 134, 134, 0.247);
 	color: white;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5); 
 }
@@ -2316,7 +2317,7 @@
 	top: 0px;
 	left: -10px;
 	z-index: 2;
-	border-right: 10px solid #5e0808;
+	border-right: 10px solid #8888883d;
 	border-bottom: 0px solid transparent;
 	border-top: 10px solid transparent; 
 }
@@ -2355,7 +2356,7 @@
 	justify-content: center; 
 }
 .timeLine .row .item .caption .image .title {
-	background-color: darkred;
+	background-color: rgba(255,255,255,.5);
 	padding: 0px 20px;
 	position: absolute;
 	z-index: 9;
@@ -2364,7 +2365,7 @@
 	display: inline-block;
 	opacity: 0;
 	color: white;
-	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5); 
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
 }
 .timeLine .row .item .caption .image .title:before {
 	content: '';
@@ -2374,7 +2375,7 @@
 	z-index: 2;
 	border-left: 10px solid transparent;
 	border-bottom: 0px solid transparent;
-	border-top: 10px solid #5e0000; 
+	border-top: 10px solid #8888883d; 
 }
 .timeLine .row .item .textContent {
 	padding: 15px 10px; 
@@ -2383,7 +2384,7 @@
 	text-justify: justify;
 	text-align: left;
 	padding: 0px 10px;
-	border-left: 5px solid #890025;
+	border-left: 5px solid #000;
 }
 .timeLine .row .pull-right {
 	float: right;
@@ -2395,7 +2396,7 @@
 	content: '';
 	width: 15px;
 	height: 15px;
-	border: 3px solid darkred;
+	border: 3px solid 8888883d;
 	background-color: white;
 	border-radius: 50%;
 	position: absolute;
@@ -2407,7 +2408,7 @@
 	height: 1px;
 	width: 5%;
 	position: absolute;
-	background-color: #890025;
+	background-color: #8888883d;
 	top: 21px;
 	left: 12px; 
 }

@@ -132,10 +132,10 @@
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
 
-		$("#days").html(days + "<h6>Дней</h6>");
-		$("#hours").html(hours + "<h6>Часов</h6>");
-		$("#minutes").html(minutes + "<h6>Минут</h6>");
-		$("#seconds").html(seconds + "<h6>Сек.</h6>");
+		$("#days").html(days + "<h6>Days</h6>");
+		$("#hours").html(hours + "<h6>Hrs</h6>");
+		$("#minutes").html(minutes + "<h6>Min</h6>");
+		$("#seconds").html(seconds + "<h6>Sec</h6>");
 	}
 	setInterval(function () { makeTimer(); }, 1000);
 
