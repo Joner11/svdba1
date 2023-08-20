@@ -2267,6 +2267,7 @@
 	content: '';
 	width: 15px;
 	height: 15px;
+	border: 3px solid #212529 !important;
 	border: 3px solid #8888883d;
 	background-color: white;
 	border-radius: 50%;
@@ -2297,6 +2298,7 @@
 	width: 50px;
 	padding: 5px 0px;
 	font-weight: bold;
+	font-family: 'Poiret One', cursive;
         background-color: #000000bf !important;
 	line-height: 15px;
 	position: absolute;
@@ -2387,7 +2389,7 @@
 	text-justify: justify;
 	text-align: left;
 	padding: 0px 10px;
-	border-left: 5px solid #000;
+	border-left: 5px solid #000 !important;
 }
 .timeLine .row .pull-right {
 	float: right;
